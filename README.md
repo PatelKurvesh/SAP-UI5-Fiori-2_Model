@@ -1,5 +1,5 @@
 # SAP-UI5-Fiori-Model
-4 Types of Model :- \n
+4 Types of Model :- 
 -JSONModel
 -ResourceModel
 -XmlModel
