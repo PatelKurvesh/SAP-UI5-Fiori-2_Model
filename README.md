@@ -49,7 +49,9 @@ Step 3) Set the model to the App / View / Controll Level.
 
 -App Level=
 	sap.ui.get.Core().setModel();
+	
 -View Level=
 	this.getView().setModel();
+	
 -Controll Level=
 	this.getView().byId("").setModel();
