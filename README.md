@@ -5,6 +5,8 @@
 -XmlModel
 -OdataModel
 
+For Notes :- https://docs.google.com/document/d/e/2PACX-1vQ1OimgYS-Mtx3Qk9BjmUeqJKAf1X-uu9WFmB3DJM9dtvLouqDOOnXZHmNVv1Xltbc9L4ddPivyM_30/pub
+
 -->How to use model in SAPUI5:-
 
 Step 1) Declare a brand new model.
