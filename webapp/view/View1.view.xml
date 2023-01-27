@@ -1,9 +1,24 @@
 <mvc:View controllerName="GithubSAP-UI5-Fiori-Model.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
-	displayBlock="true" xmlns="sap.m">
+	displayBlock="true" xmlns="sap.m" xmlns:form="sap.ui.layout.form">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+					<form:SimpleForm>
+						<form:content>
+							<Label text="Name"></Label>
+							<Input value="{/Student/CE/0/name}"></Input>
+							<!--<Input value="{/Student/name}"></Input>        For Without Array Binding-->
+							
+							<Label text="Enrollment No."></Label>
+							<Input value="{/Student/CE/0/no}"></Input>
+							
+							<Label text="Semester"></Label>
+							<Input value="{/Student/CE/0/sem}"></Input>
+							
+						</form:content>
+					</form:SimpleForm>
+				</content>
 			</Page>
 		</pages>
 	</App>
