@@ -10,6 +10,7 @@ For Notes :- https://docs.google.com/document/d/e/2PACX-1vQ1OimgYS-Mtx3Qk9BjmUeq
 -->How to use model in SAPUI5:-
 
 Step 1) Declare a brand new model.
+
 -JSONModel
 	var oModel = new sap.ui.model.json.JSONModel();
 -ResourceModel
