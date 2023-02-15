@@ -64,6 +64,10 @@
 				"settings": {
 					"bundleName": "GithubSAP-UI5-Fiori-Model.i18n.i18n"
 				}
+			},
+				"":{
+				"type":"sap.ui.model.json.JSONModel",
+				"uri":"model/student.json"
 			}
 		},
 		"resources": {
