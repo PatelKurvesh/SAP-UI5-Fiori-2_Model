@@ -3,21 +3,16 @@
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content>
-					<form:SimpleForm>
-						<form:content>
-							<Label text="Name"></Label>
-							<Input value="{/Student/CE/0/name}"></Input>
-							<!--<Input value="{/Student/name}"></Input>        For Without Array Binding-->
-							
-							<Label text="Enrollment No."></Label>
-							<Input value="{/Student/CE/0/no}"></Input>
-							
-							<Label text="Semester"></Label>
-							<Input value="{/Student/CE/0/sem}"></Input>
-							
-						</form:content>
-					</form:SimpleForm>
+					<content>
+					<Label text="ID"></Label>
+					<Input value="{/student/CE/1/id}"></Input>      
+					<!--1 = is a index number-->
+					<Label text="Name"></Label>
+					<Input value="{/student/CE/1/name}"></Input>
+					<Label text="Company"></Label>
+					<Input value="{/student/CE/1/company}"></Input>
+					<Label text="Age"></Label>
+					<Input value="{/student/CE/1/age}"></Input>
 				</content>
 			</Page>
 		</pages>
