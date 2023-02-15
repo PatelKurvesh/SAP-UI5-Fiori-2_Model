@@ -1,0 +1,16 @@
+{
+		"student":{
+					"CE":[{
+						"id":102,
+						"name":"kurvesh",
+						"company":"Apple",
+						"age":24
+					},{
+						"id":103,
+						"name":"jay",
+						"company":"Google",
+						"age":23
+					}
+						]
+				}
+}
